@@ -5,7 +5,7 @@
     "tasks": [
         {
             "type": "npm",
-            "script": "run dev",
+            "script": "run dev"
         },
         {
             "type": "npm",
@@ -21,8 +21,11 @@
             "type": "npm",
             "dependsOn": ["Pre deploy"],
             "script": "run deploy",
-            "label": "Deploy"
-        }
+            "label": "Deploy",
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            },
+        },
     ]
-  }
-  
+}  

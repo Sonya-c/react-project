@@ -11,7 +11,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "plop"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -38,6 +39,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
+    "plop": "^4.0.1",
     "postcss": "^8.4.45",
     "storybook": "^8.2.9",
     "tailwindcss": "^3.4.10",
