@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Car } from "../types/car";
+import { Car } from "../../types/car";
 
 export const Main = ({name, age, cars}: {
     name: string;
