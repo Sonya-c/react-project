@@ -5,22 +5,22 @@
     "tasks": [
         {
             "type": "npm",
-            "script": "run dev"
+            "script": "dev"
         },
         {
             "type": "npm",
-            "script": "run storybook",
+            "script": "storybook",
             "label": "Open storybook"
         },
         {
             "type": "npm",
-            "script": "run predeploy",
+            "script": "predeploy",
             "label": "Pre deploy"
         },
         {
             "type": "npm",
-            "dependsOn": ["Pre deploy"],
-            "script": "run deploy",
+            "dependsOn": ["predeploy"],
+            "script": "deploy",
             "label": "Deploy",
             "group": {
               "kind": "build",
