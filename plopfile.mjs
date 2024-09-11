@@ -13,17 +13,17 @@ export default function (plop) {
             {
                 type: 'add',
                 path: 'src/components/{{properCase name}}/{{properCase name}}.tsx',
-                templateFile: 'generators/component/component.tsx.hbs',
+                templateFile: 'templates/component/component.tsx.hbs',
             },
             {
                 type: 'add',
                 path: 'src/components/{{properCase name}}/{{properCase name}}.stories.tsx',
-                templateFile: 'generators/component/component.stories.tsx.hbs',
+                templateFile: 'templates/component/component.stories.tsx.hbs',
             },
             {
                 type: 'add',
                 path: 'src/components/{{properCase name}}/index.ts',
-                templateFile: 'generators/component/index.ts.hbs',
+                templateFile: 'templates/component/index.ts.hbs',
             },
     ]
     })
