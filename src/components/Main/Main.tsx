@@ -50,4 +50,6 @@ export const Main = ({name, age, cars}: {
             }>Update value</button>
         </div>
     </div>
-}
+};
+
+export default Main;
