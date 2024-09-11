@@ -9,3 +9,6 @@ My personal react template. Created using vite and Typescript.
   ```
   npm run generate
   ```
+
+- Absolute imports
+- Tailwind
